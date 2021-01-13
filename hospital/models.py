@@ -12,6 +12,7 @@ class Slider(models.Model):
     class Meta:
         verbose_name_plural = 'Slider'
 
+#Various services available
 
 class Service(models.Model):
     title = models.CharField(max_length=120)
