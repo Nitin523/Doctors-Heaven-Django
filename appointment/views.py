@@ -4,6 +4,7 @@ from django.views.generic import View
 from hospital.models import Doctor
 from .models import Appointment
 
+#lets make our view for Appointment
 
 class AppointmentView(View):
     def get(self, request, *args, **kwargs):
