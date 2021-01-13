@@ -2,7 +2,7 @@ from django.db import models
 from hospital.models import Doctor
 from django.utils import timezone
 
-
+#Appointment section
 class Appointment(models.Model):
     time_choices = (
         ('morning', "Morning"),
